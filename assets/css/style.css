@@ -31,8 +31,8 @@ img {
 /* NAVBAR */
 
 .container-fluid-kw { 
-    padding-right:10%;
-    padding-left: 10%;
+    padding-right:5%;
+    padding-left: 5%;
 } 
 
 
@@ -91,6 +91,8 @@ img {
     overflow:auto; 
     /* min-width:800px; */
     margin:0 auto; 
+    padding-left:5%;
+    padding-right:5%;
     
     
     
