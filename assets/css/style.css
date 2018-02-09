@@ -31,9 +31,9 @@ img {
 /* NAVBAR */
 
 .container-fluid-kw { 
-    padding-right:5%;
-    padding-left: 5%;
-} 
+    padding-right: 7.5%;
+    padding-left: 3.75%;
+}  
 
 
 .navbar-kw {
@@ -69,6 +69,11 @@ img {
     font-weight:bold;
     font-size:32px;
     color:#ffffff;
+}
+
+.a-header-kw:hover {
+    background-color:#347975;
+
 }
 
 .navbar-right-kw {
@@ -184,3 +189,99 @@ section ul li {
     padding:5px;
     background: #ffffff;
 }
+
+
+
+/* Footer */
+
+footer {
+    background-color: #666666;
+    /* clear: both; */
+    /* height: 10%; */
+    text-align: center;
+    border-top: 10px solid #4aaaa5;
+   
+
+    /* position: fixed;  */
+    
+    /* width: 100%; */
+}
+
+.copyright {
+    padding-top:5%;
+    font-size:auto;
+    
+}
+
+
+.footer-kw {
+    padding-left:0;
+    padding-right:0;
+    margin:0;
+}
+
+
+/* Contact Page Styles */
+
+form {
+    padding-top:20px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4aaaa5;
+    color:#ffffff;
+    padding: 12px 20px;
+    border: none;
+    margin-bottom:10px;
+    /* border-radius: 4px; */
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+/* Portfolio Page Styles */
+
+.portfolio-container { 
+    
+    /* display:inline-block;  */
+    margin-top:20px;
+    /* margin-bottom:5px; */
+    margin-left:5px;
+    margin-right:5px;    
+    text-align:center;
+
+} 
+
+/* .portfolio-image { 
+    width:250px;
+    height:auto;
+    display:inline-block;
+}  */
+
+.caption-kw {
+    background-color:#4aaaa5;
+}
+
+
+.a-h3-kw {
+    font-size: 22px;
+    color: #ffffff;
+}
+
+
