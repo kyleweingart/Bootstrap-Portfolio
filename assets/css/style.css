@@ -9,10 +9,10 @@
 body {
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
   color: #777777;
+  height:100%;
 }
 
-html,
-body {
+html {
   height: 100%;
 }
 
@@ -20,12 +20,16 @@ img {
   max-width: 100%;
 }
 
+.wrapper {
+  height:100%;
+}
+
 /* GLOBAL */
 
 /* NAVBAR */
 
 .container-fluid-kw {
-  padding-right: 7.5%;
+  padding-right: 6.5%;
   padding-left: 3.75%;
 }
 
@@ -41,13 +45,14 @@ img {
   margin-top: 15px;
   margin-bottom: 15px;
   background-color: #4aaaa5;
+  
 }
 
 .header-kw {
   font-family: "Georgia", "Times New Roman", Times, serif;
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   padding-left: 12px;
   padding-right: 12px;
   color: #ffffff;
@@ -59,20 +64,36 @@ img {
   font-weight: bold;
   font-size: 32px;
   color: #ffffff;
+  
 }
 
-.a-header-kw:hover {
-  background-color: #347975;
+.nav li {
+  display:table-cell !important;
 }
+
+  
+
 
 .navbar-right-kw {
-  margin-top: 35px;
+  margin-top: 40px;
+ 
+  
+  
+  
 }
 
 .a-navbar-kw {
   color: #cccccc;
   font-weight: lighter;
   font-size: 14px;
+  line-height:1.5px !important;
+  
+ 
+}
+
+.a-navbar-border {
+  border-left: 1px solid #f2f2f2;
+  
 }
 
 /* Main Content-ABOUT */
@@ -80,7 +101,7 @@ img {
 .container-kw {
   background-image: url("../images/brickwall.png");
   overflow: auto;
-
+  height:75%;
   margin: 0 auto;
   padding-left: 5%;
   padding-right: 5%;
@@ -102,14 +123,14 @@ img {
 
 #about {
   border: 1px solid #dddddd;
-  margin-top: 20px;
+  margin-top: 50px;
   margin-bottom: 25px;
   background: #ffffff;
   overflow: auto;
 }
 
 #bio-image {
-  float: left;
+  float: left; 
   margin-right: 15px;
   margin-bottom: 5px;
 }
@@ -145,6 +166,7 @@ section ul li {
 
 .no-margin {
   margin-right: 0px;
+  text-decoration: none !important;
 }
 
 .social-icon {
@@ -158,7 +180,8 @@ section ul li {
   height: auto;
   border: 1px solid #dddddd;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 50px;
+  margin-bottom: 20px;
   padding: 5px;
   background: #ffffff;
 }
@@ -182,6 +205,8 @@ footer {
   padding-left: 0;
   padding-right: 0;
   margin: 0;
+  
+  
 }
 
 /* Contact Page Styles */
@@ -235,3 +260,62 @@ input[type="submit"]:hover {
   font-size: 22px;
   color: #ffffff;
 }
+
+
+
+@media (max-width: 768px) {
+  .navbar-right-kw {
+    margin-top: 10px !important;
+    margin-left: calc(75% - 375px) !important;
+    
+
+   }
+   .a-navbar-kw {
+    
+    padding-right: 50px  !important;
+    padding-left: 50px !important;
+  }
+
+
+   .container-fluid-kw {
+   padding-right: 0%;
+   padding-left: 0%;
+  }
+
+@media (max-width: 640px) {
+  .navbar-right-kw {
+    margin-top: 10px !important;
+    margin-left: calc(75% - 325px) !important;
+    
+
+  }
+   .a-navbar-kw {
+    
+    padding-right: 40px  !important;
+    padding-left: 40px !important;
+  }
+
+
+   .container-fluid-kw {
+   padding-right: 0%;
+   padding-left: 0%;
+  }
+
+@media (max-width: 540px) {
+  .navbar-right-kw {
+    margin-top: 10px !important;
+    margin-left: 15px !important;
+    
+
+  }
+   .a-navbar-kw {
+    
+    padding-right: 25px  !important;
+    padding-left: 25px !important;
+  }
+
+
+  .container-fluid-kw {
+  padding-right: 0%;
+  padding-left: 0%;
+  }
